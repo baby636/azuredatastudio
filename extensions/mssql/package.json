@@ -1282,7 +1282,7 @@
     "@types/through2": "^2.0.34",
     "chai": "^4.2.0",
     "mocha": "^7.1.1",
-    "mocha-junit-reporter": "^1.17.0",
+    "mocha-junit-reporter": "^2.0.2",
     "mocha-multi-reporters": "^1.1.7",
     "typemoq": "^2.1.0",
     "vscodetestcover": "^1.1.0"
