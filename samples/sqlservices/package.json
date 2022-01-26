@@ -108,7 +108,7 @@
     "tslint": "^3.14.0",
     "typescript": "^4.1.0-dev.20200824",
     "url-parse": "^1.5.0",
-    "vsce": "^1.57.1"
+    "vsce": "^2.6.4"
   },
   "repository": {
     "type": "git",
