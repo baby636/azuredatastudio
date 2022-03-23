@@ -681,7 +681,7 @@
     "@types/tar": "^4.0.3",
     "@types/uuid": "^3.4.5",
     "assert": "^1.4.1",
-    "mocha": "^5.2.0",
+    "mocha": "^6.2.3",
     "mocha-junit-reporter": "^1.17.0",
     "mocha-multi-reporters": "^1.1.7",
     "nock": "^13.0.2",
