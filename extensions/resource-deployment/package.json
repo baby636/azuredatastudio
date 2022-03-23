@@ -467,7 +467,7 @@
     "@types/sinon": "^9.0.8",
     "@types/yamljs": "0.2.30",
     "@microsoft/azdata-test": "^1.5.1",
-    "mocha": "^5.2.0",
+    "mocha": "^6.2.3",
     "mocha-junit-reporter": "^1.17.0",
     "mocha-multi-reporters": "^1.1.7",
     "should": "^13.2.3",
