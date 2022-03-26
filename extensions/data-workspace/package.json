@@ -160,7 +160,8 @@
   "dependencies": {
     "fast-glob": "^3.1.0",
     "@microsoft/ads-extension-telemetry": "^1.1.5",
-    "vscode-nls": "^4.0.0"
+    "vscode-nls": "^4.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.5",
@@ -172,5 +173,10 @@
     "sinon": "^9.0.2",
     "typemoq": "^2.1.0",
     "vscodetestcover": "^1.1.0"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
