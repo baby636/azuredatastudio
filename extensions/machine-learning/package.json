@@ -137,7 +137,8 @@
     "vscode-nls": "^4.0.0",
     "vscode-languageclient": "^5.3.0-next.1",
     "@azure/arm-machinelearningservices": "^4.0.0",
-    "polly-js": "^1.6.3"
+    "polly-js": "^1.6.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.5",
@@ -154,5 +155,10 @@
     "id": "65",
     "publisherDisplayName": "Microsoft",
     "publisherId": "Microsoft"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
