@@ -97,7 +97,7 @@
   "devDependencies": {
     "@types/node": "^7.0.43",
     "@types/vscode": "^1.0.0",
-    "braces": "^2.3.2",
+    "braces": "^3.0.0",
     "child-process-promise": "^2.2.1",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
