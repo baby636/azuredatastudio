@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - vinyl-fs > glob-stream > extend:
+        patched: '2023-06-25T23:17:37.949Z'
+        id: 'npm:extend:20180424'
+        path: vinyl-fs > glob-stream > extend
+    - gulp > gulp-cli > liftoff > extend:
+        patched: '2023-06-25T23:17:37.949Z'
+        id: 'npm:extend:20180424'
+        path: gulp > gulp-cli > liftoff > extend
+    - gulp > vinyl-fs > glob-stream > extend:
+        patched: '2023-06-25T23:17:37.949Z'
+        id: 'npm:extend:20180424'
+        path: gulp > vinyl-fs > glob-stream > extend
+    - gulp-vinyl-zip > vinyl-fs > glob-stream > extend:
+        patched: '2023-06-25T23:17:37.949Z'
+        id: 'npm:extend:20180424'
+        path: gulp-vinyl-zip > vinyl-fs > glob-stream > extend
+    - gulp-azure-storage > vinyl-fs > glob-stream > extend:
+        patched: '2023-06-25T23:17:37.949Z'
+        id: 'npm:extend:20180424'
+        path: gulp-azure-storage > vinyl-fs > glob-stream > extend
+    - gulp-atom-electron > gulp-vinyl-zip > vinyl-fs > glob-stream > extend:
+        patched: '2023-06-25T23:17:37.949Z'
+        id: 'npm:extend:20180424'
+        path: gulp-atom-electron > gulp-vinyl-zip > vinyl-fs > glob-stream > extend
+    - gulp-atom-electron > gulp-symdest > vinyl-fs > glob-stream > extend:
+        patched: '2023-06-25T23:17:37.949Z'
+        id: 'npm:extend:20180424'
+        path: gulp-atom-electron > gulp-symdest > vinyl-fs > glob-stream > extend
