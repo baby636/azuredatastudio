@@ -38,10 +38,10 @@
     "@typescript-eslint/experimental-utils": "~2.13.0",
     "@typescript-eslint/parser": "^3.3.0",
     "applicationinsights": "1.0.8",
-    "azure-storage": "^2.1.0",
+    "azure-storage": "^2.10.7",
     "byline": "^5.0.0",
     "colors": "^1.4.0",
-    "electron-osx-sign": "^0.4.16",
+    "electron-osx-sign": "^0.6.0",
     "esbuild": "^0.8.30",
     "fs-extra": "^9.1.0",
     "documentdb": "1.13.0",
@@ -57,7 +57,7 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "source-map": "0.6.1",
     "typescript": "^4.3.0-dev.20210426",
-    "vsce": "1.48.0",
+    "vsce": "2.15.0",
     "vscode-universal": "deepak1556/universal#61454d96223b774c53cda10f72c2098c0ce02d58"
   },
   "scripts": {
