@@ -100,7 +100,7 @@
     "braces": "^2.3.2",
     "child-process-promise": "^2.2.1",
     "del": "^3.0.0",
-    "gulp": "^4.0.0",
+    "gulp": "^5.0.0",
     "gulp-color": "0.0.1",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-tslint": "^6.0.2",
