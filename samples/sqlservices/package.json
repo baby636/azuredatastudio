@@ -97,10 +97,10 @@
   "devDependencies": {
     "@types/node": "^7.0.43",
     "@types/vscode": "^1.0.0",
-    "braces": "^2.3.2",
+    "braces": "^3.0.3",
     "child-process-promise": "^2.2.1",
     "del": "^3.0.0",
-    "gulp": "^4.0.0",
+    "gulp": "^5.0.0",
     "gulp-color": "0.0.1",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-tslint": "^6.0.2",
