@@ -132,7 +132,8 @@
     "semver": "^7.3.2",
     "sudo-prompt": "^9.2.1",
     "vscode-nls": "^4.1.2",
-    "which": "^2.0.2"
+    "which": "^2.0.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.5",
@@ -155,5 +156,10 @@
     "id": "73",
     "publisherDisplayName": "Microsoft",
     "publisherId": "Microsoft"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
