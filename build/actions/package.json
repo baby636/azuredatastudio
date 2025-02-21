@@ -16,7 +16,7 @@
 	"author": "",
 	"dependencies": {
 		"@actions/core": "^1.2.6",
-		"@actions/github": "^2.1.1",
+		"@actions/github": "^3.0.0",
 		"axios": "^0.21.1",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3"
