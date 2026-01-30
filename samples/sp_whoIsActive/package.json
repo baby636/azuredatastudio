@@ -242,12 +242,15 @@
     "build": "gulp build",
     "compile": "gulp compile",
     "watch": "gulp watch",
-    "typings": "gulp copytypings"
+    "typings": "gulp copytypings",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "fs-extra": "^5.0.0",
     "handlebars": "^4.7.7",
-    "openurl": "^1.1.1"
+    "openurl": "^1.1.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/azdata": "^1.25.0",
@@ -267,5 +270,6 @@
     "typemoq": "^2.1.0",
     "typescript": "^4.1.2",
     "vsce": "1.36.2"
-  }
+  },
+  "snyk": true
 }
